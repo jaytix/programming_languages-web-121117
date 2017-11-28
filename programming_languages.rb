@@ -7,7 +7,7 @@ def reformat_languages(languages)
       styles[1].keys.each do |language|
 
         if language == :ruby
-        #end
+        end
       end
     end
   end
