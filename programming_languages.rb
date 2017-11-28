@@ -11,6 +11,8 @@ def reformat_languages(languages_by_style)
           binding.pry
           hash[language] = {type => value}
           hash[language][:style] = [styles[0]]
+          if language == :javascript
+            hash[language[:style] = [styles[0], styles[1]]]
           #end
         end
       end
