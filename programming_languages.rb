@@ -13,7 +13,7 @@ def reformat_languages(languages_by_style)
           hash[language][:style] = [styles[0]]
           if language == :javascript
             hash[language[:style] = [styles[0], styles[1]]]
-          #end
+          end
         end
       end
     end
