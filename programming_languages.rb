@@ -1,3 +1,11 @@
+require 'pry'
+
 def reformat_languages(languages)
-  # your code here
+  hash = Hash.new
+  languages_by_style.each do |style|
+    style.each do |language|
+      if language == :ruby
+      end
+    end
+  end    
 end
