@@ -7,9 +7,9 @@ def reformat_languages(languages)
       styles[1].keys.each do |language|
         hash[language] = {}
         styles[1].values.each_with_index do |types, i|
-          #binding.pry
-          hash[language] = {types}
           binding.pry
+          hash[language] = {types}
+          #binding.pry
           #end
         end
       end
