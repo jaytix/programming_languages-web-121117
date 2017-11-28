@@ -10,7 +10,7 @@ def reformat_languages(languages)
           binding.pry
           hash[language] = {types[i]}
           #end
-        end
+        #end
       end
     end
   end
