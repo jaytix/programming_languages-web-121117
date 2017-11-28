@@ -4,7 +4,7 @@ def reformat_languages(languages_by_style)
   hash = Hash.new
   languages_by_style.each do |styles|
     styles.each do |style|
-      styles[1].keys.each do |language, types|
+      styles[1].each do |language, types|
         hash[language] = {}
           binding.pry
           types.each do |type, value|
