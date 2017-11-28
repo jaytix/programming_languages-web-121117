@@ -7,7 +7,7 @@ def reformat_languages(languages)
       styles[1].each do |language|
       binding.pry
         if language == :ruby
-        #end
+        end
       end
     end
   end
