@@ -12,6 +12,7 @@ def reformat_languages(languages)
           binding.pry
           hash[language] = {type => value}
           #binding.pry
+            end
           end
         end
       end
