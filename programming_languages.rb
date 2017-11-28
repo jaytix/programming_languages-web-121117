@@ -12,7 +12,7 @@ def reformat_languages(languages)
           #binding.pry
           hash[language] = {type => value}
           hash[language][:style] =  style
-          binding.pry
+          #binding.pry
           end
         end
       end
