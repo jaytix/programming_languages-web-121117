@@ -11,6 +11,7 @@ def reformat_languages(languages)
           types.values.each do |value|
           binding.pry
           hash[language] = {type => value}
+          hash[language] = {style => styles}
           #binding.pry
             end
           end
