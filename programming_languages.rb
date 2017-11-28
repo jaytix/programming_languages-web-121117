@@ -6,8 +6,7 @@ def reformat_languages(languages)
     styles.each_with_index do |style, i|
       styles[1].keys.each do |language|
         binding.pry
-        if language == :ruby
-        end
+        hash << language
       end
     end
   end
