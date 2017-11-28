@@ -1,21 +1,20 @@
 require 'pry'
 
-def reformat_languages(languages)
+def reformat_languages(languages_by_style)
   hash = Hash.new
   languages_by_style.each do |styles|
     styles.each do |style|
-      styles[1].keys.each_with_index do |language, i|
+      styles[1].keys.each do |language, types|
         hash[language] = {}
-        styles[1].values.each_with_index do |types|
           #binding.pry
           types.each do |type, value|
           #binding.pry
           hash[language] = {type => value}
-          hash[language][:style] =  style
-          #binding.pry
-          end
+          hash[language][:style] = style
+          #end
         end
       end
     end
   end
+  return hash
 end
